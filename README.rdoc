@@ -4,12 +4,17 @@ Meetup is for collecting pictures of attendees of parties.
 
 == Model
 * User
+  * [has_many] albums
 * Album
+  * name
+  * [has_many] pictures
+  * control
 * Picture
   * paperclip
-  * name
+  * attendee
   * facebook link
   * twitter link
+  * instagram link
 
 == tech
 * rails4 / ruby2
@@ -21,5 +26,3 @@ Meetup is for collecting pictures of attendees of parties.
 * option control should be easy and simple and functional
 * fancy UI with websocket
 * seucre transactions
-
-
