@@ -1,0 +1,25 @@
+= Meetup (tentative name)
+
+Meetup is for collecting pictures of attendees of parties.
+
+== Model
+* User
+* Album
+* Picture
+  * paperclip
+  * name
+  * facebook link
+  * twitter link
+
+== tech
+* rails4 / ruby2
+* paperclip
+* websocket
+* MariaDB
+
+== challengs
+* option control should be easy and simple and functional
+* fancy UI with websocket
+* seucre transactions
+
+
