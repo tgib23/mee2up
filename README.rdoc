@@ -36,3 +36,6 @@ Meetup is for collecting pictures of attendees of parties.
 * option control should be easy and simple and functional
 * fancy UI with websocket
 * seucre transactions
+
+== additional challenges
+* use carrierwave, not paperclip
