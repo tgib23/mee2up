@@ -43,3 +43,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
+############# for mee2up ##############
+gem "paperclip", "~> 3.0"
