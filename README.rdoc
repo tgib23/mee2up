@@ -16,6 +16,16 @@ Meetup is for collecting pictures of attendees of parties.
   * twitter link
   * instagram link
 
+== View
+* User
+  * new
+  * edit
+* Album
+  * new
+  * show
+  * edit (control)
+  * add
+
 == tech
 * rails4 / ruby2
 * paperclip
