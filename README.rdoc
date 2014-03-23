@@ -39,3 +39,4 @@ Meetup is for collecting pictures of attendees of parties.
 
 == additional challenges
 * use carrierwave, not paperclip
+* BDD

@@ -47,3 +47,7 @@ end
 
 ############# for mee2up ##############
 gem "paperclip", "~> 3.0"
+
+group :development, :test do
+  gem 'rspec-rails'
+end
