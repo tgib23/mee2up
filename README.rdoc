@@ -28,11 +28,18 @@ Meetup is for collecting pictures of attendees of parties.
 
 == tech
 * rails4 / ruby2
-* paperclip
+* paperclip and secure image storage
 * websocket
 * MariaDB
+* aws or heroku deploy
+* canvas animation
 
 == challengs
 * option control should be easy and simple and functional
 * fancy UI with websocket
-* seucre transactions
+* fancy animation with canvas
+* seucre transactions with credit card
+
+== additional challenges
+* use carrierwave, not paperclip
+* BDD with capybara, cucumber, sinatra

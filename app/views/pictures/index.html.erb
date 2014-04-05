@@ -1,0 +1,13 @@
+<%= form_for @picture, :url => pictures_path, :html => { :multipart => true } do |f| %>
+  <%= f.file_field :photo %>
+  <%= f.submit 'アップロード' %>
+<% end %>
+ 
+<% @pictures.each do |picture| %>
+<div>
+  <h2><%= picture.photo.url %></h2>
+  <%= image_tag picture.photo.url %>
+  <%= image_tag picture.photo.url(:medium) %>
+  <%= image_tag picture.photo.url(:thumb) %>
+</div>
+<% end %>
