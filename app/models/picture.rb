@@ -5,6 +5,6 @@ class Picture < ActiveRecord::Base
       :thumb => "100x100>" 
     }, 
     :default_url => "/images/:style/missing.png",
-    :url => "/system/storage/album_id/:hash.:extension",
+    :url => "/system/storage/album_id/:id/:style/:hash.:extension",
     :hash_secret => "longSecretString"
 end
